@@ -1,0 +1,51 @@
+root {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: pink;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+}
+
+.habit {
+    display: block;
+    border-bottom: 1px black solid;
+}
+
+    .todayCheck {
+        border-radius: 50px;
+        background-color: rgba(0,0,0,0);
+    }
+
+    .visualProgress {
+        display: grid;
+        
+    }
+
+        .visualProgressDay {
+            height: 10px;
+            width: 10px;
+            margin-right: 3px;
+        }
+
+        #vpd1, #vpd3 {
+            background-color: gray;
+        }
+        #vpd2 {
+            background-color: lime;
+        }
+
+    .editTracker {
+        height: 15px;
+        width: 15px;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+    }
