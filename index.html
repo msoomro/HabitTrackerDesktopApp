@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Habit Tracker</title>
 </head>
 <body>
     <header>Habit Tracker</header>
 
-    <div class="habit">
-        <input type="checkbox" name="" class="todayCheck"> <!--could change this to an emoji that is grayed out-->
-        <label for="">Habit</label>
-        <div class="visualProgress">
-            <span class="visualProgressDay" id="vpd1"></span>
-            <span class="visualProgressDay" id="vpd2"></span>
-            <span class="visualProgressDay" id="vpd3"></span>
+    <div class="habitList">
+        <div class="habit">
+            <label class="form-control">
+                <input type="checkbox" name="" class="todayCheck"> <!--could change this to an emoji that is grayed out-->
+                Habit
+            </label>
+            <div class="visualProgress">
+                <span class="visualProgressDay" id="vpd1"></span>
+                <span class="visualProgressDay" id="vpd2"></span>
+                <span class="visualProgressDay" id="vpd3"></span>
+            </div>
+            <button class="editTracker">...</button>
         </div>
-        <button class="editTracker">...</button>
+
+        <div class="habit">
+            <label class="form-control">
+                <input type="checkbox" name="" class="todayCheck"> <!--could change this to an emoji that is grayed out-->
+                Habit 2
+            </label>
+            <div class="visualProgress">
+                <span class="visualProgressDay" id="vpd2"></span>
+                <span class="visualProgressDay" id="vpd2"></span>
+                <span class="visualProgressDay" id="vpd3"></span>
+            </div>
+            <button class="editTracker">...</button>
+        </div>
     </div>
+</label>
 </body>
 </html>
